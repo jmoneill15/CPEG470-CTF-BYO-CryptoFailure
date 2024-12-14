@@ -1,0 +1,45 @@
+#header{
+    margin-top: 300px;
+    font-size: 38px;
+}
+
+#text1{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+#form{
+    display: grid;
+    justify-content: center;
+    
+}
+
+#input{
+    font-size: 16px;
+    height: 35px;
+    width:300px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 4px;
+
+}
+
+#button{
+    margin-top: 20px;
+    width:150px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    justify-self: center;
+    border-color: transparent;
+    background-color: rgb(193, 155, 211);
+    color: white;
+    border-radius: 20px;
+}
+
+#message{
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#secret {
+    --hidden-password:73 33 6e 44 48 65 31 70;/*48 65 31 70"; /*Might want to revert back to text from hex*/
+  }
